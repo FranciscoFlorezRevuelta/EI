@@ -1,4 +1,4 @@
-# Técnicas Avanzadas de Visión Artificial, 2023-2024
+# Entornos Inteligentes, 2023-2024
 
 This repository contains the source files for MkDocs of the teaching materials of the course _Técnicas Avazandas de Visión Artificil_ at the University of Alicante. The documentation already converted to HTML pages is located [here](https://jazorinl.github.io/tava).
 

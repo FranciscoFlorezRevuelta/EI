@@ -1,0 +1,7 @@
+mkdocs-material==9.4.6
+weasyprint
+mkdocs-pdf-export-plugin
+python-markdown-math
+mkdocs-bibtex
+setuptools
+pandoc
