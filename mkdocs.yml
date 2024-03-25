@@ -8,10 +8,7 @@ theme:
 
 nav:
 - Summary: 'index.md'
-- 3D vision: '3d.md'
-- Deep Learning Techniques for Computer vision: 'dnnCV.md'
 - Video-based human action/activity recognition: 'HAR.md'
-- Image and Video Generation: 'generative.md'
 
 markdown_extensions:
   - toc:
