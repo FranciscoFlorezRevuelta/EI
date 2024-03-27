@@ -2,19 +2,17 @@
 
 ## Course Syllabus and Rules
 
-These are the teaching materials for the course _Técnicas Avanzadas de Visión Artificial_ (Advanced Techniques in Artificial Vision), coordinated by [Jorge Azorín][jazorin_url] ([@JAzorinL][jazorin_twitter]) and also taught by professors [Andrés Fuster][fuster_url] ([@AFusterG][fuster_twitter]), [Marcelo Saval][msaval_url] , and [Francisco Flórez][florez_url] ([@FFlorezRevuelta][florez_twitter]).
+These are the teaching materials for the course _Entornos Inteligentes_ (Intelligent Environments), coordinated by [Francisco Flórez][florez_url] ([LinkedIn][florez_linkedin]) and also taught by [José García][jgarcia_url] ([LinkedIn][jgarcia_linkedin]), and [Pau Climent][paucliment_url] ([LinkedIn][paucliment_linkedin]).
 
 For information regarding the course assessment, please refer to the Moodle contents at UACloud and the [course official info page][syllabus]. 
 
-[jazorin_url]: https://cvnet.cpd.ua.es/curriculum-breve/es/azorin-lopez-jorge/9826
-[jazorin_twitter]: https://twitter.com/JAzorinL
-[fuster_url]: https://cvnet.cpd.ua.es/curriculum-breve/es/fuster-guillo-andres/10095
-[fuster_twitter]: https://twitter.com/afusterg
-[msaval_url]: https://cvnet.cpd.ua.es/curriculum-breve/es/saval-calvo-marcelo/15749
-[msaval_twitter]: https://twitter.com/JAzorinL
-[florez_url]: https://cvnet.cpd.ua.es/curriculum-breve/es/florez-revuelta-francisco-asis/11645
-[florez_twitter]: https://twitter.com/fflorezrevuelta
-[syllabus]: https://cvnet.cpd.ua.es/Guia-Docente/GuiaDocente/Index?wcodest=D114&wcodasi=43512&wlengua=es&scaca=2023-24
+[florez_url]: personal.ua.es/francisco.florez
+[florez_linkedin]: https://www.linkedin.com/in/franciscoflorezrevuelta
+[jgarcia_url]: https://cvnet.cpd.ua.es/curriculum-breve/es/garcia-rodriguez-jose/11102
+[jgarcia_linkedin]: https://www.linkedin.com/in/jos%C3%A9-garc%C3%ADa-5aa80613
+[paucliment_url]: https://cvnet.cpd.ua.es/curriculum-breve/es/climent-perez-pau/3848
+[paucliment_linkedin]: https://www.linkedin.com/in/pau-climent-perez
+[syllabus]: https://cvnet.cpd.ua.es/Guia-Docente/GuiaDocente/Index?wcodasi=43510&wlengua=en&scaca=2023-24
 
 Regarding the methodology:
 
