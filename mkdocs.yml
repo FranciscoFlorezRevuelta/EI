@@ -8,7 +8,9 @@ theme:
 
 nav:
 - Summary: 'index.md'
-- Video-based human action/activity recognition: 'HAR.md'
+- Introduction to intelligent environments: 'introduction.md'
+- Computer vision for active assisted living: 'CV-AAL.md'
+- Multimodal interaction, datasets, and synthetic generation: 'multimodal-interaction.md'
 
 markdown_extensions:
   - toc:
