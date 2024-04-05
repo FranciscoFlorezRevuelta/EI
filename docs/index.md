@@ -32,7 +32,8 @@ Please note that the content may change throughout the course.
 
 The course has the following blocks:
 
-* 17 April: [Introduction to intelligent environments and applications (Francisco Flórez)](AmI.md) and [Internet of Things (Pau Climent)](IoT.md)
+* 17 April: [Introduction to intelligent environments and applications (Francisco Flórez)](AmI.md)
+* 17 April: [Internet of Things (Pau Climent)](IoT.md)
 * 24 April and 8 May: [Computer vision for Active Assisted Living (Francisco Flórez)](CV_AAL.md)
 * 8 May: [Multimodal interaction, datasets, and synthetic generation (Jose García)](multimodal_interaction.md)
 
