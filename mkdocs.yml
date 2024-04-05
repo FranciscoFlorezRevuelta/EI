@@ -9,6 +9,7 @@ theme:
 nav:
 - Summary: 'index.md'
 - Introduction to intelligent environments: 'AmI.md'
+- Internet of Things: 'IoT.md'
 - Computer vision for active assisted living: 'CV-AAL.md'
 - Multimodal interaction, datasets, and synthetic generation: 'multimodal-interaction.md'
 
