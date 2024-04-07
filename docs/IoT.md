@@ -63,7 +63,7 @@ Apart from a main component of AmI, IoT can be described as the network of every
 > **Definition**
 >
 >"[...] (IoT) describes the **network of physical objects**—“things”—that are **embedded with sensors**, software, and other technologies for the purpose of connecting and **exchanging data with other devices** and systems over the internet."
-
+  
 
 > **Important**
 >
@@ -76,7 +76,7 @@ Similarly, there is also the idea that the devices of IoT are based on **"cheap"
 >
 >"The term **IoT** \[...] refers to the **collective network of connected devices** and the technology that facilitates **communication between devices and the cloud**, as well as **between the devices themselves**. Thanks to the advent of **inexpensive computer chips** and high bandwidth telecommunication, we now have billions of devices connected to the internet. This means **everyday devices** like toothbrushes, vacuums, cars, and machines can use sensors to collect data and respond intelligently to users."
 
-
+  
 
 > **Important**
 >
@@ -234,7 +234,7 @@ The following figure[^5] shows how the process of training an ML model based off
 >
 >Mohammadi *et al.* 2018 "Deep Learning for IoT Big Data and Streaming Analytics: A Survey" [https://doi.org/10.1109/COMST.2018.2844341](https://doi.org/10.1109/COMST.2018.2844341)
 
-
+  
 
 > **Note**
 >
@@ -314,7 +314,7 @@ Devices such as smart phone, WSNs and RFIDs etc., are the major components of Io
 > - "Cryptography Key Management, Authentication and Authorization for IoT"
 > - [https://medium.com/@preetirajesh400/cryptography-key-management-authentication-and-authorization-for-iot-4198dfa0481b](https://medium.com/@preetirajesh400/cryptography-key-management-authentication-and-authorization-for-iot-4198dfa0481b)
 
-
+  
 > **Note**
 >
 >**News on Bluetooth vulnerabilities (optional read):**
