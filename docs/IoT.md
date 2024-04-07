@@ -9,7 +9,8 @@ April, 2024
 
 As we said when defining Ambient Intelligence, it is:
 
-> [!Note]
+> **Definition**
+> 
 > “Ambient intelligence is the concept of **capturing and processing** data through **sensors, processors, and actuators** **unobtrusively embedded** throughout the environment. **Leveraging artificial intelligence (AI)**, ambient systems provide **connected, seamless, uninterrupted** everyday experiences that require no human intervention.”
 > 
 > Optional read: [https://www.arm.com/glossary/ambient-intelligence](https://www.arm.com/glossary/ambient-intelligence)
@@ -39,7 +40,7 @@ When desigining AmI4AHA (AAL) systems, it is therefore of paramount importance t
 
 It is important to base the **sensor selection** (step 1) on the functional requirements of the system, and then use **acquire the data** that is necessary (step 2), processing it using ML/AI-based **recognition** algorithms (step 3) for data analysis and knowledge extraction, which can then be fed in long-term (temporal analysis) algorithms (step 4).
 
->[!important]
+> **Important**
 >
 >**Mandatory reading:** Cicirelli _et al._ 2021 "Ambient Assisted Living: A Review of Technologies, Methodologies and Future Perspectives for Healthy Aging of Population" [http://dx.doi.org/10.3390/s21103549](http://dx.doi.org/10.3390/s21103549)
 
@@ -59,7 +60,7 @@ The example integrates everyday tools such as smart vacuum robots, but also wear
 
 Apart from a main component of AmI, IoT can be described as the network of everyday "things" (appliances, small devices, electronics; but also parcels, unfinished products in a factory, product parts), that are embedded with sensors (i.e. made _smart_) and given the possibility to communicate with other devices, and the Internet. Put another way:
 
->[!Definition]
+> **Definition**
 >
 >"[...] (IoT) describes the **network of physical objects**—“things”—that are **embedded with sensors**, software, and other technologies for the purpose of connecting and **exchanging data with other devices** and systems over the internet."
 
@@ -70,11 +71,11 @@ Apart from a main component of AmI, IoT can be described as the network of every
 
 Similarly, there is also the idea that the devices of IoT are based on **"cheap" integrated circuits (ICs)**, with the capability of Internet connection (i.e. a minimal TCP/IP stack, Bluetooth or other protocols):
 
->[!Definition]
+> **Definition**
 >
 >"The term **IoT** \[...] refers to the **collective network of connected devices** and the technology that facilitates **communication between devices and the cloud**, as well as **between the devices themselves**. Thanks to the advent of **inexpensive computer chips** and high bandwidth telecommunication, we now have billions of devices connected to the internet. This means **everyday devices** like toothbrushes, vacuums, cars, and machines can use sensors to collect data and respond intelligently to users."
 
->[!important]
+> **Important**
 >
 >Read the full article (**mandatory**): [https://aws.amazon.com/what-is/iot/](https://aws.amazon.com/what-is/iot/)
 >_focus on industrial and other applications_
@@ -131,7 +132,7 @@ The figure above shows the 12 top ones, which we can classify into two main grou
 5. EMPP: Extensible Messaging and Presence Protocol
 6. LM2M: Lightweight Machine-to-Machine
 
->[!important]
+> **Important**
 >
 >Read the article (**mandatory**) at: [https://www.techtarget.com/iotagenda/tip/Top-12-most-commonly-used-IoT-protocols-and-standards](https://www.techtarget.com/iotagenda/tip/Top-12-most-commonly-used-IoT-protocols-and-standards)
 
@@ -141,7 +142,7 @@ These protocols and standards provide the foundation for interoperability, scala
 
 **IoT gateways and hubs** allow IoT devices connected in a local network to interact with cloud services, they perform **protocol translation** (e.g. Zigbee message to HTTP web service request) as part of their protocol interoperability functions, data can be **aggregated** before it is sent, which reduces bandwidth usage. When they do so, as said above they perform **edge** or **fog computing**. As part of their implementation, they need to provide **enhanced security** to the local network, avoiding unauthorized access to the local IoT devices.
 
->[!example]
+> **Example**
 >
 >Commercially available products, such **Amazon echo** integrate gateway capabilities. This type of device can find local Zigbee and Wi-Fi home sensors and integrate them. When a voice command is issued by the user, the voice assistant connects to Amazon AWS, and performs the command recognition, which then sends back requests for actuator changes, etc.
 >
@@ -149,7 +150,7 @@ These protocols and standards provide the foundation for interoperability, scala
 
 ### Sensors and Actuators in IoT:
 
->[!definition]
+> **Definition**
 >
 >"**Sensors** are devices that **convert physical activity or changes into an electrical signal**, while **actuators are transducers** that **take one form of energy as input** and **produce some form of motion**, movement, or action"
 >
@@ -224,17 +225,17 @@ Sensor data processing and analysis are essential components of IoT systems, ena
 The following figure[^5] shows how the process of training an ML model based off of historical (temporally-aggregated) IoT data: 
 ![](https://media.licdn.com/dms/image/D5612AQHX6C9QXC32fg/article-inline_image-shrink_1500_2232/0/1695955563599?e=1717632000&v=beta&t=N6C-PYGPVkPN2fYGCQruvqgqQqikdCcOySQVnd2gcHE)
 
->[!important]
+> **Important**
 >
 >**Mandatory read:** Understand the applications of DL in IoT (Sec. IV), as well as how IoT data can be aggregated and incorporated into different deep learning (DL) models (Sec. V).
 >
 >Mohammadi *et al.* 2018 "Deep Learning for IoT Big Data and Streaming Analytics: A Survey" [https://doi.org/10.1109/COMST.2018.2844341](https://doi.org/10.1109/COMST.2018.2844341)
 
->[!note]
+> **Note**
 >
 >**Optional read:** Alghanmi *et al.* 2021 "Machine Learning Approaches for Anomaly Detection in IoT: An Overview and Future Research Directions" [https://doi.org/10.1007/s11277-021-08994-z](https://doi.org/10.1007/s11277-021-08994-z)
 
-[^5]: Image from: https://www.linkedin.com/pulse/beginners-guide-machine-learning-iot-controls-mlot-part-1-okechukwu/
+[^5]: Image from: [https://www.linkedin.com/pulse/beginners-guide-machine-learning-iot-controls-mlot-part-1-okechukwu/](https://www.linkedin.com/pulse/beginners-guide-machine-learning-iot-controls-mlot-part-1-okechukwu/)
 
 ### IoT Areas of application
 
@@ -249,7 +250,7 @@ Since the inception of the Internet of Things (original IoT), several other acro
 - **Internet of Educational Things** (IoET) (e.g. [https://doi.org/10.1016/j.iot.2022.100558](https://doi.org/10.1016/j.iot.2022.100558) )
 - etc.
 
->[!Note]
+> **Note**
 >
 > Optional read: "Internet of Things: The Five Types of IoT"
 > [https://syntegra.net/internet-of-things-the-five-types-of-iot/](https://syntegra.net/internet-of-things-the-five-types-of-iot/)
@@ -266,7 +267,7 @@ As part of this AmI 4 AHA effort, the **Internet of Health(y) Things** (IoHT), o
 
 Of particular interest, in the field of AmI4AHA, or AAL, is the part of IoHT that considers the wearable technologies and IoT-based applications to support independent living of older adults, so that they can remain in their preferred environment longer.
 
->[!important]
+> **Important**
 >
 >**Mandatory reads:**
 > - Baig *et al.* 2019 "A Systematic Review of Wearable Sensors and IoT-Based Monitoring Applications for Older Adults" [https://doi.org/10.1007/s10916-019-1365-7](https://doi.org/10.1007/s10916-019-1365-7)
@@ -296,14 +297,14 @@ Recent technological advancements have yielded smart sensor nodes and RFIDs, lea
 
 Devices such as smart phone, WSNs and RFIDs etc., are the major components of IoT network which are basically **resource constrained devices**. Consequently, the design and implementation of security and privacy management schemes demand consideration of factors like **performance optimization, minimal power consumption, resilience against attacks, data tampering prevention, and end-to-end security assurance**. Security measures within IoT frameworks safeguard against unauthorized access, data alterations, or destruction, while privacy protocols aim to uphold individuals' rights to control the usage and purpose of collected information.
 
->[!note]
+> **Note**
 >
 >**Optional (but *highly* recommended) reads:**
 > - Chanal *et al.* 2020 "Security and Privacy in IoT: A Survey" [https://doi.org/10.1109/JIOT.2019.2898113](https://doi.org/10.1109/JIOT.2019.2898113)
 > - "Cryptography Key Management, Authentication and Authorization for IoT"
 > - [https://medium.com/@preetirajesh400/cryptography-key-management-authentication-and-authorization-for-iot-4198dfa0481b](https://medium.com/@preetirajesh400/cryptography-key-management-authentication-and-authorization-for-iot-4198dfa0481b)
 
->[!Note]
+> **Note**
 >
 >**News on Bluetooth vulnerabilities (optional read):**
 >[https://www.kaspersky.com/blog/bluetooth-vulnerability-android-ios-macos-linux/50038/](https://www.kaspersky.com/blog/bluetooth-vulnerability-android-ios-macos-linux/50038/)
@@ -326,7 +327,6 @@ Additionally, the digital divide **exacerbates societal inequalities**, as acces
 4. Finally, **acceptability** is dicreased by poor **usability** of the system (i.e. design that is not well-thought or that didn't involve the end users' needs).
 
 <img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs10916-019-1365-7/MediaObjects/10916_2019_1365_Fig2_HTML.png?as=webp" width="450px"/>
-
 [^6]: Figure from: [https://doi.org/10.1007/s10916-019-1365-7](https://doi.org/10.1007/s10916-019-1365-7)
 
 ### Conclusion and Recap:
@@ -341,7 +341,7 @@ To finalize, we have covered the **data security, privacy**, as well as **social
 
 ### References:
 
->[!warning]
+> **Warning**
 >
 > References have been ***included along the text***, please review the material and find tip boxes marked as **Important**, which contain mandatory reading material.
 > 
