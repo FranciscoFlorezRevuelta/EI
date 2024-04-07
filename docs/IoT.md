@@ -24,7 +24,7 @@ If we take the definition and break it down, we see that the following concepts 
 
 Therefore, one of the main characteristics of ambient intelligence (AmI for short) is the need for embedded sensors that are unobtrusive and can integrate naturally in the environment. The following figure[^1] shows the main characteristics of AmI (left), and how these can be achieved using certain technologies (right). The ***Internet of Things*** (IoT, for short) appears as a clear component.
 
-[^1]: Image from: [source](https://medriva.com/health/revolutionizing-patient-care-how-ambient-ai-scribes-are-transforming-doctor-visits)
+[^1]: Image from: [Medriva](https://medriva.com/health/revolutionizing-patient-care-how-ambient-ai-scribes-are-transforming-doctor-visits)
 
 ![](https://img-cdn.thepublive.com/fit-in/1280x960/filters:format(webp)/medriva/media/media_files/6d5bed77ef421fd0463de1638072d63d6a88d45193ce7e8900ee89ceee757c5f.jpg)
 
@@ -151,7 +151,7 @@ These protocols and standards provide the foundation for interoperability, scala
 >
 >Open source projects, such as **Home Assistant** [https://www.home-assistant.io/](https://www.home-assistant.io/) go even further, acting as a gateway that enables commercial products to interact with each other even when manufacturers do not support competitors' devices
 
-### Sensors and Actuators in IoT:
+### Sensors and Actuators in IoT
 
 > **Definition**
 >
@@ -240,7 +240,7 @@ The following figure[^5] shows how the process of training an ML model based off
 >
 >**Optional read:** Alghanmi *et al.* 2021 "Machine Learning Approaches for Anomaly Detection in IoT: An Overview and Future Research Directions" [https://doi.org/10.1007/s11277-021-08994-z](https://doi.org/10.1007/s11277-021-08994-z)
 
-[^5]: Image from: [https://www.linkedin.com/pulse/beginners-guide-machine-learning-iot-controls-mlot-part-1-okechukwu/](https://www.linkedin.com/pulse/beginners-guide-machine-learning-iot-controls-mlot-part-1-okechukwu/)
+[^5]: Image from: [LinkedIn](https://www.linkedin.com/pulse/beginners-guide-machine-learning-iot-controls-mlot-part-1-okechukwu/)
 
 ### IoT Areas of application
 
@@ -299,7 +299,7 @@ Other IoHT solutions focus further in the applications within hospitals, or care
 
 **Energy Efficiency in Intelligent Environments.** Energy efficiency in intelligent environments involves leveraging IoT technologies and data-driven approaches to optimize energy usage and reduce wastage. By integrating **sensors, smart meters, and energy management** systems, intelligent environments can **monitor and analyse energy consumption patterns** in real-time. This enables automated **adjustments to lighting, heating, cooling**, and other systems based on **occupancy**, environmental conditions, and energy demand.
 
-### Data Security and Privacy:
+### Data Security and Privacy
 
 By definition, the IoT encompasses a vast network of interconnected physical objects globally, linked via the Internet. Envisioned to interconnect trillions of intelligent objects daily, **these entities possess the capacity to gather, process, and communicate data regarding themselves and their surroundings**. Prominent examples of IoT applications span various domains, including **very sensitive information** such as in **healthcare**, smart city **infrastructure**, **surveillance** systems, and data acquisition in public and **defence** sectors.
 
@@ -322,7 +322,7 @@ Devices such as smart phone, WSNs and RFIDs etc., are the major components of Io
 >**Examples of vulnerabilities:**
 >[https://www.keyfactor.com/education-center/iot-device-security/](https://www.keyfactor.com/education-center/iot-device-security/)
 
-### Ethical and Social Implications:
+### Ethical and Social Implications
 
 The proliferation of IoT technology brings forth a series ethical and social implications that require careful consideration. **Privacy concerns** arise as IoT **devices continuously collect**, **transmit, and analyze** personal data, raising **questions about consent**, **data ownership**, and surveillance.
 
@@ -340,7 +340,7 @@ Additionally, the digital divide **exacerbates societal inequalities**, as acces
 <img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs10916-019-1365-7/MediaObjects/10916_2019_1365_Fig2_HTML.png?as=webp" width="450px"/>
 [^6]: Figure from: [https://doi.org/10.1007/s10916-019-1365-7](https://doi.org/10.1007/s10916-019-1365-7)
 
-### Conclusion and Recap:
+### Conclusion and Recap
 
 In this lesson, we have presented the possibilities that the Internet of Things (IoT) concept opens for us. We have seen how, contrary to the concept of ambient intelligence, that focuses on the deployment of sensors into the environment and the prediction of user needs, the **concept of IoT is _closer_ to the hardware**, as it is the network of connected _things_ that can be any everyday object that is network-capable thanks to the emergence of cost-reduced integrated circuits that implement a full network stack. Alternatively a hub or gateway that can connect to the Internet provides access for a network of devices that transmit via a restricted bandwidth network infrastructure (such as Zigbee, Z-Wave, etc).
 
