@@ -254,6 +254,7 @@ Since the inception of the Internet of Things (original IoT), several other acro
 >
 > Optional read: "Internet of Things: The Five Types of IoT"
 > [https://syntegra.net/internet-of-things-the-five-types-of-iot/](https://syntegra.net/internet-of-things-the-five-types-of-iot/)
+>
 > Optional read: "The Role of IoT in Education"
 > [https://www.arduino.cc/education/the-role-of-the-iot-in-education](https://www.arduino.cc/education/the-role-of-the-iot-in-education)
 
@@ -270,15 +271,19 @@ Of particular interest, in the field of AmI4AHA, or AAL, is the part of IoHT tha
 > **Important**
 >
 >**Mandatory reads:**
+> 
 > - Baig *et al.* 2019 "A Systematic Review of Wearable Sensors and IoT-Based Monitoring Applications for Older Adults" [https://doi.org/10.1007/s10916-019-1365-7](https://doi.org/10.1007/s10916-019-1365-7)
 
 Other IoHT solutions focus further in the applications within hospitals, or care facilities, as well as in-home e-health and tele-health provision.
 
-> [!note]
+> **Note**
 > 
 > **Optional reads:**
+>
 > - Selvaraj *et al.* 2020 "Challenges and opportunities in IoT healthcare systems: a systematic review" [https://doi.org/10.1007/s42452-019-1925-y](https://doi.org/10.1007/s42452-019-1925-y)
+>
 > - Mishra *et al.* 2019 "IoT Health care Monitoring and Tracking: A Survey" [https://doi.org/10.1109/ICOEI.2019.8862763](https://doi.org/10.1109/ICOEI.2019.8862763)
+>
 > - **Example application:** Bassoli et al. 2017 "An IoT approach for an AAL Wi-Fi-based Monitoring System" [https://doi.org/10.1109/TIM.2017.2753458](https://doi.org/10.1109/TIM.2017.2753458)
 
 #### Intelligent Environments: beyond the house
