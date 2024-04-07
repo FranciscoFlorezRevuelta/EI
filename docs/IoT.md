@@ -8,10 +8,10 @@ April, 2024
 
 As we said when defining Ambient Intelligence, it is:
 
-> [!Definition]
+> [!Note]
 > “Ambient intelligence is the concept of **capturing and processing** data through **sensors, processors, and actuators** **unobtrusively embedded** throughout the environment. **Leveraging artificial intelligence (AI)**, ambient systems provide **connected, seamless, uninterrupted** everyday experiences that require no human intervention.”
 > 
-> Optional read: https://www.arm.com/glossary/ambient-intelligence
+> Optional read: (https://www.arm.com/glossary/ambient-intelligence)[https://www.arm.com/glossary/ambient-intelligence]
 
 If we take the definition and break it down, we see that the following concepts emerge:
 1. We need **sensors, processors, and actuators** that are **unobtrusively embedded** in the environment
