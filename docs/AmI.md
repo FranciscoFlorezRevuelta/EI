@@ -101,7 +101,7 @@ Mandatory readings:
 **Smart cities** represent a revolutionary approach in urban development, harnessing the power of advanced technologies to transform the way we live, work, and interact within urban environments. At the core of this concept is the integration of the Internet of Things (IoT), data analytics, artificial intelligence, and other digital technologies to create cities that are not only more efficient and sustainable but also more responsive to the needs and well-being of their residents. Smart cities are characterised by their ability to use technology to improve infrastructure, public services, and urban governance. This includes optimising traffic and transportation systems, enhancing energy utilisation, improving waste management, and ensuring public safety. Furthermore, smart cities focus on fostering stronger engagement between the government and citizens, enhancing the quality of life through innovative solutions. By effectively analysing and utilising the wealth of data generated within urban spaces, smart cities pave the way for a future where urban living is more connected, sustainable, and citizen-centric.
 
 Mandatory readings:
-> * Law, K. H., & Lynch, J. P. (2019). [Smart city: Technologies and challenges](https://iopscience.iop.org/article/10.1088/1757-899X/365/2/022039/pdf). IT Professional, 21(6), 46-51.
+> * Law, K. H., & Lynch, J. P. (2019). [Smart city: Technologies and challenges](https://ieeexplore.ieee.org/iel7/6294/8896130/08896155.pdf). IT Professional, 21(6), 46-51.
 
 ### Smart industry
 
