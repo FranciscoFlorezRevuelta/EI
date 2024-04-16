@@ -357,3 +357,8 @@ To finalize, we have covered the **data security, privacy**, as well as **social
 > References have been ***included along the text***, please review the material and find tip boxes marked as **Important**, which contain mandatory reading material.
 > 
 > As explained in the previous chapter, **a test will be conducted** including topics covered in this material.
+
+## Moodle test
+
+* The moodle test will be developed during practice sessions on **Wednesday 17 April at 4.30pm CET**, jointly to the module on Intelligent Environments.
+* The questions will be based on this webpage and all the mandatory readings proposed. 
