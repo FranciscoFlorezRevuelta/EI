@@ -163,7 +163,7 @@ Mandatory viewings:
 Mandatory readings: 
 > * [High-level summary of the AI Act](https://artificialintelligenceact.eu/high-level-summary/)
 > * GoodBrother COST Action (2022). [State of the art on ethical, legal, and social issues linked to audio- and video-based AAL solutions](https://doi.org/10.5281/zenodo.6793617).
-> * GoodBrother COST Action (2022). [State of the art in privacy preservation in video data](https://doi.org/10.5281/zenodo.680620777) - Section 2. Privacy by design.
+> * GoodBrother COST Action (2022). [State of the art in privacy preservation in video data](https://doi.org/10.5281/zenodo.6806207) - Section 2. Privacy by design.
 
 Optional readings:
 > * [AI Act](https://data.consilium.europa.eu/doc/document/ST-5662-2024-INIT/en/pdf)
