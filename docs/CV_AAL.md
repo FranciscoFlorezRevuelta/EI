@@ -1,13 +1,5 @@
 # Computer vision for AAL
 
-## Objectives
-
-* Provide a deep understanding of Ambient Intelligence (AmI), exploring how AmI forms the theoretical and technological foundation for intelligent environments and enhanced living spaces.
-* Examine the key technologies that drive AmI, including sensor technology, communication networks, user interface technology, data processing, AI, and actuator technology. We will also discuss how these technologies converge into AI, IoT, and Natural Interaction, shaping intelligent environments.
-* Analyse how the principles and technologies of AmI are applied in various domains such as Ambient Assisted Living, smart cities, smart buildings, and smart industries. We aim to understand the practical implications and transformative potential of these applications.
-* Critically assess the benefits of Ambient Intelligence in improving quality of life, efficiency, safety, and comfort. Concurrently, we will address the challenges, including privacy concerns, security risks, interoperability, and ethical considerations.
-* Understand the regulatory, legal, and ethical frameworks relevant to Ambient Intelligence.
-
 ## Introduction
 
 Ambient Assisted Living (AAL) systems are designed to enhance the quality of life and promote independent, healthy living for elderly or disabled individuals through the integration of information and communication technologies. These systems are implemented in homes, workplaces, and public areas, and are equipped with a variety of sensors. These sensors may be embedded in the environment or worn by the user, gathering data on both the environment and the individual to facilitate interactions between the person and their surroundings. The data collected are analyzed by expert and intelligent systems to deliver advanced, personalized healthcare services.
