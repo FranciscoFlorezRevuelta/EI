@@ -49,7 +49,7 @@ You can, optionally, access [this presentation](https://unialicante-my.sharepoin
 
 * The moodle test will be developed during practice sessions on **Wednesday 24 April at 4.30pm CET**.
 * The test has a maximum duration of 30 minutes from the start.
-* The test consists of 16 triple choice questions.
+* The test consists of 17 triple choice questions.
 * Each wrong answer subtracts 1/3 of the value of a correct answer.
 * The mark for the test will be considered as one of the marks for the theoretical part of the course. See the overall evaluation of the course in the general conditions.
 * The questions will be based on this webpage and all the mandatory readings proposed.
