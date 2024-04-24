@@ -25,13 +25,15 @@ This lab session aims to provide students with practical experience in applying 
    * Visualise different modalities of gait data (silhouettes, skeletons). See folder *semantic_data*.
    * Analyse files with labels (metadata_labels_v3.csv, metadata_raw_scores_v3.csv, walks-v2.csv).
 
-3. Preprocessing:
+2. Preprocessing:
+   
    * Implement data cleaning and normalisation techniques.
    * Generate training and testing splits ensuring a balanced representation of walking styles and psychological traits. 
    
    > The authors propose subjects with IDs from 0-250 should be used for training, and evaluation ought to be performed on subjects with IDs from 251-312, corresponding to an 80:20 training-evaluation split. However, in most cases, you will not have enough computing capabilities to train the whole dataset. Therefore, I recommend that for implementation and preliminary tests, you use a reduced subset, following the same percentages. For instance, subjects with IDs 0-8 for training, and 251-252 for evaluation. You can adjust these numbers based on your computing capability.
 
-4. Model building:
+3. Model building:
+   
    * Choose an appropriate deep learning architecture.
    * Develop a model to correlate gait patterns with psychological traits.
    * Utilise transfer learning, if applicable, to leverage pre-trained models on similar tasks.
@@ -42,14 +44,16 @@ This lab session aims to provide students with practical experience in applying 
    > The authors propose two evaluation methodologies: (i) run-level and (ii) subject-level. For run-level evaluation, the model performance is evaluated for each walking sequence, irrespective of the subject. Performance in terms of precision, recall, weighted F1 score should be reported for all combinations of walking variations and viewpoints. This protocol is similar to a typical gait classification task (i.e. input walking sequence, output classes). For subject-level evaluation, the goal is to correctly identify the psychometric attributes for each subject, considering all available variations or runs. For instance, a naive baseline for subject-level evaluation is to use the run-level model and report the majority predicted classes for a questionnaire for all the runs of a subject. Methods for subject-level evaluation may consider the identity of the subject to be known at test time - a scenario possible in the real-world, as a part of a larger pipeline for gait recognition and classification. The same metrics as in run-level evaluation should be used.
    > 3. Merge an existing model with some additional inputs.
 
+4. Training:
 
-5. Training:
    * Train the model using the prepared dataset.
 
-6. Evaluation:
+5. Evaluation:
+
    * Evaluate the model performance using appropriate metrics (e.g., accuracy, F1-score).
 
-7. Discussion and Reporting:
+6. Discussion and Reporting:
+
    * Interpret the results and discuss the implications of the findings.
    * Prepare a brief report summarising the methodology, results, and potential improvements.
 
