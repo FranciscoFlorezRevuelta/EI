@@ -22,21 +22,21 @@ This lab session aims to provide students with practical experience in applying 
 
 1. Data exploration:
     * Familiarise yourself with the dataset structure.
-   * Visualise different modalities of gait data (silhouettes, skeletons). See folder *semantic_data*.
-   * Analyse files with labels (metadata_labels_v3.csv, metadata_raw_scores_v3.csv, walks-v2.csv).
+    * Visualise different modalities of gait data (silhouettes, skeletons). See folder *semantic_data*.
+    * Analyse files with labels (metadata_labels_v3.csv, metadata_raw_scores_v3.csv, walks-v2.csv).
 
 2. Preprocessing:
    
-   * Implement data cleaning and normalisation techniques.
-   * Generate training and testing splits ensuring a balanced representation of walking styles and psychological traits. 
+    * Implement data cleaning and normalisation techniques.
+    * Generate training and testing splits ensuring a balanced representation of walking styles and psychological traits. 
    
    > The authors propose subjects with IDs from 0-250 should be used for training, and evaluation ought to be performed on subjects with IDs from 251-312, corresponding to an 80:20 training-evaluation split. However, in most cases, you will not have enough computing capabilities to train the whole dataset. Therefore, I recommend that for implementation and preliminary tests, you use a reduced subset, following the same percentages. For instance, subjects with IDs 0-8 for training, and 251-252 for evaluation. You can adjust these numbers based on your computing capability.
 
 3. Model building:
    
-   * Choose an appropriate deep learning architecture.
-   * Develop a model to correlate gait patterns with psychological traits.
-   * Utilise transfer learning, if applicable, to leverage pre-trained models on similar tasks.
+    * Choose an appropriate deep learning architecture.
+    * Develop a model to correlate gait patterns with psychological traits.
+    * Utilise transfer learning, if applicable, to leverage pre-trained models on similar tasks.
 
    > Here, you need to propose a deep learning architecture to correlate gait patterns with psychological traits. You have here several alternatives: 
    > 1. Use an existing model (like [OpenGait](https://github.com/ShiqiYu/OpenGait), [GaitGraph](https://github.com/tteepe/GaitGraph2) or any of the others used by the authors) - See Table 2 in their paper.
@@ -46,16 +46,16 @@ This lab session aims to provide students with practical experience in applying 
 
 4. Training:
 
-   * Train the model using the prepared dataset.
+    * Train the model using the prepared dataset.
 
 5. Evaluation:
 
-   * Evaluate the model performance using appropriate metrics (e.g., accuracy, F1-score).
+    * Evaluate the model performance using appropriate metrics (e.g., accuracy, F1-score).
 
 6. Discussion and Reporting:
 
-   * Interpret the results and discuss the implications of the findings.
-   * Prepare a brief report summarising the methodology, results, and potential improvements.
+    * Interpret the results and discuss the implications of the findings.
+    * Prepare a brief report summarising the methodology, results, and potential improvements.
 
 ## Timeline
 
