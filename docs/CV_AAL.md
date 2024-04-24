@@ -46,7 +46,7 @@ Mandatory reading:
 You can, optionally, access [this presentation](https://unialicante-my.sharepoint.com/:b:/g/personal/francisco_florez_mscloud_ua_es/EV6lRC852G9MjgbBQhShivoBn33XyH_xREwvXbj2u2s65g?e=nztneB) on computer vision for active assisted living. It includes videos on different applications of computer vision for active assisted living.
 
 ## Lab session
-Lab session for Wednesdays 24 April and 8 May is available (here)[https://franciscoflorezrevuelta.github.io/EI/CV-AAL-lab)].
+Lab session for Wednesdays 24 April and 8 May is available (here)[https://franciscoflorezrevuelta.github.io/EI/CV-AAL-lab].
 
 ## Moodle test
 
