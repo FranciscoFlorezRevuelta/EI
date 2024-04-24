@@ -45,9 +45,6 @@ Mandatory reading:
 ## Additional resources
 You can, optionally, access [this presentation](https://unialicante-my.sharepoint.com/:b:/g/personal/francisco_florez_mscloud_ua_es/EV6lRC852G9MjgbBQhShivoBn33XyH_xREwvXbj2u2s65g?e=nztneB) on computer vision for active assisted living. It includes videos on different applications of computer vision for active assisted living.
 
-## Lab session
-Lab session for Wednesdays 24 April and 8 May is available (here)[CV-AAL-lab].
-
 ## Moodle test
 
 * The moodle test will be developed during practice sessions on **Wednesday 24 April at 4.30pm CET**.
