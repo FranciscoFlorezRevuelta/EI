@@ -12,7 +12,7 @@ For information regarding the course assessment, please refer to the Moodle cont
 [jgarcia_linkedin]: https://www.linkedin.com/in/jos%C3%A9-garc%C3%ADa-5aa80613
 [paucliment_url]: https://cvnet.cpd.ua.es/curriculum-breve/es/climent-perez-pau/3848
 [paucliment_linkedin]: https://www.linkedin.com/in/pau-climent-perez
-[syllabus]: https://cvnet.cpd.ua.es/Guia-Docente/GuiaDocente/Index?wcodasi=43510&wlengua=en&scaca=2023-24
+[syllabus]: https://cvnet.cpd.ua.es/Guia-Docente/GuiaDocente/Index?wcodasi=43510&wlengua=en&scaca=2024-25
 
 Regarding the methodology:
 
@@ -32,8 +32,8 @@ Please note that the content may change throughout the course.
 
 The course has the following blocks:
 
-* 17 April: [Introduction to intelligent environments and applications (Francisco Flórez)](AmI.md)
-* 17 April: [Internet of Things (Pau Climent)](IoT.md)
-* 24 April and 8 May: [Computer vision for Active Assisted Living (Francisco Flórez)](CV_AAL.md)
-* 8 May: [Multimodal interaction, datasets, and synthetic generation (Jose García)](multimodal_interaction.md)
+* 16 April: [Introduction to intelligent environments and applications (Francisco Flórez)](AmI.md)
+* 16 April: [Internet of Things (Pau Climent)](IoT.md)
+* 30 April and 7 May: [Computer vision for Active Assisted Living (Francisco Flórez)](CV_AAL.md)
+* 7 May: [Multimodal interaction, datasets, and synthetic generation (Jose García)](multimodal_interaction.md)
 
