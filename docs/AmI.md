@@ -171,7 +171,7 @@ Optional readings:
 
 ## Moodle test
 
-* The moodle test will be developed during practice sessions on **Wednesday 17 April at 4.30pm CET**.
+* The moodle test will be developed during practice sessions on **Wednesday 16 April at 4.30pm CET**.
 * The test has a maximum duration of 30 minutes from the start.
 * The test consists of 20 triple choice questions.
 * Each wrong answer subtracts 1/3 of the value of a correct answer.
