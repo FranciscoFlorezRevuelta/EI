@@ -360,5 +360,5 @@ To finalize, we have covered the **data security, privacy**, as well as **social
 
 ## Moodle test
 
-* The moodle test will be developed during practice sessions on **Wednesday 17 April at 4.30pm CET**, jointly to the module on Intelligent Environments.
+* The moodle test will be developed during practice sessions on **Wednesday, 16 April 2025 at 4.30pm CEST**, jointly to the module on Intelligent Environments.
 * The questions will be based on this webpage and all the mandatory readings proposed. 
