@@ -21,7 +21,7 @@ This lab session aims to provide students with practical experience in applying 
 ### Tasks
 
 1. Data exploration:
-    * Familiarise yourself with the dataset structure.
+    * Familiarise yourself with the dataset structure. See [this file](responses_psymo_en.md)
     * Visualise different modalities of gait data (silhouettes, skeletons). See folder *semantic_data*.
     * Analyse files with labels (metadata_labels_v3.csv, metadata_raw_scores_v3.csv, walks-v2.csv).
 
