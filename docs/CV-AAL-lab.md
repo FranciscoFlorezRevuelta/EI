@@ -62,5 +62,5 @@ This lab session aims to provide students with practical experience in applying 
 * This lab session will take place on **Wednesday 30 April 4pm to 9pm** and on **Wednesday 7 May 4pm to 6pm**.
 * Dedicate a maximum of 16.5 hours to this work. This includes time at home. If you are not able to finish all the tasks, please, report it in the final report.
 * If you work more than those 16.5 hours, please, specify the amount of time worked.
-* Code (for instance, a link to a Colab notebook) and brief report must be provided through the Evaluation option at UACloud by **Wednesday 8 May 11.59pm**. 
+* Code (for instance, a link to a Colab notebook) and brief report must be provided through the Evaluation option at UACloud by **Wednesday 14 May 11.59pm**. 
 
