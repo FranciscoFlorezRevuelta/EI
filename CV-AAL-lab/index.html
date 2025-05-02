@@ -1,0 +1,690 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../CV_AAL/">
+      
+      
+        <link rel="next" href="../multimodal_interaction/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
+    
+    
+      
+        <title>Lab - Entornos Inteligentes</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.2afb09e1.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#gait-analysis" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Entornos Inteligentes" class="md-header__button md-logo" aria-label="Entornos Inteligentes" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Entornos Inteligentes
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Lab
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Entornos Inteligentes" class="md-nav__button md-logo" aria-label="Entornos Inteligentes" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Entornos Inteligentes
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Summary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../AmI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introduction to intelligent environments
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../IoT/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Internet of Things
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Computer vision for active assisted living
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Computer vision for active assisted living
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CV_AAL/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Theory
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Lab
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lab
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-psymo-dataset" class="md-nav__link">
+    <span class="md-ellipsis">
+      The PsyMo dataset
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lab-session-implementing-deep-learning-for-gait-analysis-using-the-psymo-dataset" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lab session - Implementing deep learning for gait analysis using the PsyMo dataset
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lab session - Implementing deep learning for gait analysis using the PsyMo dataset">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tasks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tasks
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#timeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      Timeline
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../multimodal_interaction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Multimodal interaction, datasets, and synthetic generation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-psymo-dataset" class="md-nav__link">
+    <span class="md-ellipsis">
+      The PsyMo dataset
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lab-session-implementing-deep-learning-for-gait-analysis-using-the-psymo-dataset" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lab session - Implementing deep learning for gait analysis using the PsyMo dataset
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lab session - Implementing deep learning for gait analysis using the PsyMo dataset">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tasks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tasks
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#timeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      Timeline
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="gait-analysis">Gait analysis<a class="headerlink" href="#gait-analysis" title="Permanent link">&para;</a></h1>
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<p>Gait analysis is a comprehensive assessment of the way an individual walks or runs, used primarily to highlight any abnormalities in gait patterns that could be indicative of underlying health issues. This type of analysis meticulously captures biomechanical data to evaluate different aspects such as stride length, speed, and body symmetry during movement. Technological advancements have enabled sophisticated methodologies in gait analysis, utilising sensors and cameras to provide precise, quantitative data. This analysis is crucial not only in sports and rehabilitation but also in diagnosing conditions like Parkinson's disease, arthritis, and musculoskeletal disorders, where changes in gait can be some of the first signs of disease progression.</p>
+<p>In the context of Ambient Assisted Living (AAL), gait analysis holds significant relevance as it offers a non-intrusive means of continuous monitoring that can alert caregivers and healthcare providers to changes in an older person's mobility and balance. Regular monitoring of gait can identify early signs of decline in physical function, which is often a precursor to falls —a major risk for elderly individuals. Integrating gait analysis into AAL systems leverages technology to ensure safety and support for older people, enabling early intervention and facilitating aging in place with dignity. This technology not only enhances the ability to live independently but also supports preventive health measures, improving overall quality of life.</p>
+<p>Computer vision for gait analysis is a significant advancement in assessing walking patterns, utilising image processing and machine learning to detect and analyse human motion. This technology captures real-time video data, which is then processed to extract key information about gait characteristics such as stride length, gait speed, and postural control. The application of computer vision in gait analysis allows for precise and accurate assessment without the need for physical contact or invasive markers on the body. This approach is particularly useful in settings where continuous monitoring is essential, offering an efficient, scalable, and less obtrusive method to assess mobility and balance. Consequently, computer vision has become an invaluable tool in clinical diagnostics, rehabilitation, and elderly care, providing insights that can guide treatment plans, monitor recovery, and prevent falls by identifying potential mobility issues before they result in serious injuries.</p>
+<h2 id="the-psymo-dataset">The PsyMo dataset<a class="headerlink" href="#the-psymo-dataset" title="Permanent link">&para;</a></h2>
+<p>The <a href="https://github.com/cosmaadrian/psymo">PsyMo dataset</a> is a comprehensive multi-modal dataset designed to investigate psychological traits manifested in walking patterns. Developed by researchers from the University Politehnica of Bucharest, it features data from 312 participants who walked in seven different styles, captured from six camera angles. In addition to motion data, the dataset includes self-reported psychological traits from six different questionnaires covering aspects like personality, self-esteem, fatigue, aggression, and mental health. PsyMo, which stands for Psychological traits from Motion, offers anonymised data including silhouettes, 2D and 3D human skeletons, and 3D SMPL human meshes, making it a rich resource for both psychological and gait analysis research.</p>
+<p>The Psymo dataset was presented at the 2024 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV). The paper is available <a href="https://openaccess.thecvf.com/content/WACV2024/papers/Cosma_PsyMo_A_Dataset_for_Estimating_Self-Reported_Psychological_Traits_From_Gait_WACV_2024_paper.pdf">here</a>.</p>
+<h2 id="lab-session-implementing-deep-learning-for-gait-analysis-using-the-psymo-dataset">Lab session - Implementing deep learning for gait analysis using the PsyMo dataset<a class="headerlink" href="#lab-session-implementing-deep-learning-for-gait-analysis-using-the-psymo-dataset" title="Permanent link">&para;</a></h2>
+<p>This lab session aims to provide students with practical experience in applying deep learning techniques to analyze gait patterns using the PsyMo dataset. The session will focus on developing models that can interpret variations in walking styles associated with different psychological traits.</p>
+<h3 id="tasks">Tasks<a class="headerlink" href="#tasks" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>Data exploration:</p>
+<ul>
+<li>Familiarise yourself with the dataset structure. See <a href="../responses_psymo_en/">this file</a></li>
+<li>Visualise different modalities of gait data (silhouettes, skeletons). See folder <em>semantic_data</em>.</li>
+<li>Analyse files with labels (metadata_labels_v3.csv, metadata_raw_scores_v3.csv, walks-v2.csv).</li>
+</ul>
+</li>
+<li>
+<p>Preprocessing:</p>
+<ul>
+<li>Implement data cleaning and normalisation techniques.</li>
+<li>Generate training and testing splits ensuring a balanced representation of walking styles and psychological traits. </li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p>The authors propose subjects with IDs from 0-250 should be used for training, and evaluation ought to be performed on subjects with IDs from 251-312, corresponding to an 80:20 training-evaluation split. However, in most cases, you will not have enough computing capabilities to train the whole dataset. Therefore, I recommend that for implementation and preliminary tests, you use a reduced subset, following the same percentages. For instance, subjects with IDs 0-8 for training, and 251-252 for evaluation. You can adjust these numbers based on your computing capability. You can download a reduced version of the dataset from <a href="https://unialicante-my.sharepoint.com/:u:/g/personal/francisco_florez_mscloud_ua_es/Ea0hEseakFhDm5ZjJk-yb8oB9oOWuC315nx4Zc-sATbo2g?e=cLTi0i">here</a> (subjects 0-7 for training, 8-9 for testing).</p>
+</blockquote>
+<ol start="3">
+<li>
+<p>Model building:</p>
+<ul>
+<li>Choose an appropriate deep learning architecture.</li>
+<li>Develop a model to correlate gait patterns with psychological traits.</li>
+<li>Utilise transfer learning, if applicable, to leverage pre-trained models on similar tasks.</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p>Here, you need to propose a deep learning architecture to correlate gait patterns with psychological traits. You have here several alternatives: 
+1. Use an existing model (like <a href="https://github.com/ShiqiYu/OpenGait">OpenGait</a>, <a href="https://github.com/tteepe/GaitGraph2">GaitGraph</a> or any of the others used by the authors) - See Table 2 in their paper.
+2. Propose a new model. For instance, using Video Vision Transformers, Graph Convolutional Networks, 3D ConvNets, Inflated 3D ConvNets,...) - See the module on <a href="https://jazorinl.github.io/tava/HAR/">Video-based human action/activity recognition</a>.
+The authors propose two evaluation methodologies: (i) run-level and (ii) subject-level. For run-level evaluation, the model performance is evaluated for each walking sequence, irrespective of the subject. Performance in terms of precision, recall, weighted F1 score should be reported for all combinations of walking variations and viewpoints. This protocol is similar to a typical gait classification task (i.e. input walking sequence, output classes). For subject-level evaluation, the goal is to correctly identify the psychometric attributes for each subject, considering all available variations or runs. For instance, a naive baseline for subject-level evaluation is to use the run-level model and report the majority predicted classes for a questionnaire for all the runs of a subject. Methods for subject-level evaluation may consider the identity of the subject to be known at test time - a scenario possible in the real-world, as a part of a larger pipeline for gait recognition and classification. The same metrics as in run-level evaluation should be used.
+3. Merge an existing model with some additional inputs.</p>
+</blockquote>
+<ol start="4">
+<li>
+<p>Training:</p>
+<ul>
+<li>Train the model using the prepared dataset.</li>
+</ul>
+</li>
+<li>
+<p>Evaluation:</p>
+<ul>
+<li>Evaluate the model performance using appropriate metrics (e.g., accuracy, F1-score).</li>
+</ul>
+</li>
+<li>
+<p>Discussion and Reporting:</p>
+<ul>
+<li>Interpret the results and discuss the implications of the findings.</li>
+<li>Prepare a brief report summarising the methodology, results, and potential improvements.</li>
+</ul>
+</li>
+</ol>
+<h2 id="timeline">Timeline<a class="headerlink" href="#timeline" title="Permanent link">&para;</a></h2>
+<ul>
+<li>This lab session will take place on <strong>Wednesday 30 April 4pm to 9pm</strong> and on <strong>Wednesday 7 May 4pm to 6pm</strong>.</li>
+<li>Dedicate a maximum of 16.5 hours to this work. This includes time at home. If you are not able to finish all the tasks, please, report it in the final report.</li>
+<li>If you work more than those 16.5 hours, please, specify the amount of time worked.</li>
+<li>Code (for instance, a link to a Colab notebook) and brief report must be provided through the Evaluation option at UACloud by <strong>Wednesday 14 May 11.59pm</strong>. </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "content.tooltips", "content.footnote.tooltips"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      
+    
+  </body>
+</html>
