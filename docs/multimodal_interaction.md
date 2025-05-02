@@ -1,7 +1,6 @@
 # Multimodal interaction, datasets, and synthetic generation
 
 **Manuel Benavent Lledó, David Ortiz Pérez, and Jose García Rodríguez**
-May, 2024
 
 ## Introduction
 
