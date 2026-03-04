@@ -2,7 +2,7 @@
 
 ## Course Syllabus and Rules
 
-These are the teaching materials for the course _Entornos Inteligentes_ (Intelligent Environments), coordinated by [Francisco Flórez][florez_url] ([LinkedIn][florez_linkedin]) and also taught by [José García][jgarcia_url] ([LinkedIn][jgarcia_linkedin]), and [Pau Climent][paucliment_url] ([LinkedIn][paucliment_linkedin]).
+These are the teaching materials for the course _Entornos Inteligentes_ (Smart Environments), coordinated by [Francisco Flórez][florez_url] ([LinkedIn][florez_linkedin]) and also taught by [José García][jgarcia_url] ([LinkedIn][jgarcia_linkedin]), and [Pau Climent][paucliment_url] ([LinkedIn][paucliment_linkedin]).
 
 For information regarding the course assessment, please refer to the Moodle contents at UACloud and the [course official info page][syllabus]. 
 
