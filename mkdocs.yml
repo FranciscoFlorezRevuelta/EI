@@ -11,7 +11,7 @@ nav:
 - Introduction to intelligent environments: 'AmI.md'
 - Internet of Things: 'IoT.md'
 - Computer vision for active assisted living: 
-   - Theory: 'CV_AAL.md'
+   - Theory: 
    - Lab: 'CV-AAL-lab.md'
 - Multimodal interaction, datasets, and synthetic generation: 'multimodal_interaction.md'
 
