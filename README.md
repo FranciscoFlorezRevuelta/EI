@@ -1,4 +1,4 @@
-# Entornos Inteligentes, 2023-2024
+# Entornos Inteligentes, 2025-2026
 
 This repository contains the source files for MkDocs of the teaching materials of the course _Entornos Inteligentes_ at the University of Alicante. The documentation already converted to HTML pages is located [here](https://franciscoflorezrevuelta.github.io/EI).
 
