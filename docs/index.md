@@ -12,7 +12,7 @@ For information regarding the course assessment, please refer to the Moodle cont
 [jgarcia_linkedin]: https://www.linkedin.com/in/jos%C3%A9-garc%C3%ADa-5aa80613
 [paucliment_url]: https://cvnet.cpd.ua.es/curriculum-breve/es/climent-perez-pau/3848
 [paucliment_linkedin]: https://www.linkedin.com/in/pau-climent-perez
-[syllabus]: https://cvnet.cpd.ua.es/Guia-Docente/GuiaDocente/Index?wcodasi=43510&wlengua=en&scaca=2024-25
+[syllabus]: https://cvnet.cpd.ua.es/Guia-Docente/GuiaDocente/Index?wcodasi=43510&wlengua=en&scaca=2025-26
 
 Regarding the methodology:
 
