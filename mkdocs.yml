@@ -1,4 +1,4 @@
-site_name: Entornos Inteligentes
+site_name: Smart environments
 theme:
   name: material
   features:
@@ -12,8 +12,8 @@ nav:
 - Internet of Things: 'IoT.md'
 - Computer vision for active assisted living: 
    - Theory: 
-   - Lab: 'CV-AAL-lab.md'
-- Multimodal interaction, datasets, and synthetic generation: 'multimodal_interaction.md'
+   - Lab: 
+- Multimodal interaction, datasets, and synthetic generation:
 
 markdown_extensions:
   - toc:
