@@ -176,7 +176,7 @@ Data is crucial for deep learning and therefore multimodal datasets have been de
 
 ## Moodle test
 
-* The moodle test will be developed during practice session on **Wednesday 7 May at 6pm CET**.
+* The moodle test will be developed during practice session on **Wednesday 27 March at 6pm CET**.
 * The test has a maximum duration of 30 minutes from the start.
 * The test consists of 20 triple choice questions.
 * Each wrong answer subtracts 1/3 of the value of a correct answer.
