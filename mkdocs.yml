@@ -13,7 +13,7 @@ nav:
 - Computer vision for active assisted living: 
    - Theory: 'CV-AAL.md'
    - Lab: 'CV-AAL-lab-old.md'
-- Multimodal interaction, datasets, and synthetic generation: 'multimodal_interaction-old.md'
+- Multimodal interaction, datasets, and synthetic generation: 'multimodal_interaction.md'
 
 markdown_extensions:
   - toc:
