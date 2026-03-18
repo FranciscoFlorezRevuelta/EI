@@ -1,6 +1,6 @@
 # Lab Assignment: Human Activity Recognition from Pose Estimated in Video
 
-<img src="../2026_EI/imgs/pipeline.png" width="700">
+![image](imgs/pipeline.png")
 
 ## Introduction
 
