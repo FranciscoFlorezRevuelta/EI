@@ -12,7 +12,7 @@ nav:
 - Internet of Things: 'IoT.md'
 - Computer vision for active assisted living: 
    - Theory: 'CV-AAL.md'
-   - Lab: 'CV-AAL-lab-old.md'
+   - Lab: 'Human_Action_Recognition.md'
 - Multimodal interaction, datasets, and synthetic generation: 'multimodal_interaction.md'
 
 markdown_extensions:
