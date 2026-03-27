@@ -44,7 +44,7 @@ Video-based AAL uses cameras plus computer vision to support safety, independenc
 These applications can improve safety and reduce caregiver workload, but only when systems are **reliable**, **transparent**, and **designed for real homes**. In practice, successful video-based AAL systems combine technical performance with strong privacy-by-design choices, clear user control, and well-defined escalation pathways.
 
 Mandatory readings: 
-> * GoodBrother COST Action (2022). [State of the art on ethical, legal, and social issues linked to audio- and video-based AAL solutions](https://doi.org/10.5281/zenodo.6390709). Section 3.1. Video-based sensing technologies, Section 3.3.1 Main challenges for data processing, Section 3.4. Multimodal data fusion for AAL, Section 4. AAL applications: recent advances in successful assistive and supportive functions (NOTE: do not read sections on the use of audio-based devices).
+> * GoodBrother COST Action (2022). [State of the Art of Audio- and Video-Based Solutions for AAL](https://doi.org/10.5281/zenodo.6390709). Section 3.1. Video-based sensing technologies, Section 3.3.1 Main challenges for data processing, Section 3.4. Multimodal data fusion for AAL, Section 4. AAL applications: recent advances in successful assistive and supportive functions (NOTE: do not read sections on the use of audio-based devices).
 
 
 Optional reading:
@@ -101,7 +101,7 @@ You can, optionally, access [this presentation](https://unialicante-my.sharepoin
 
 ## Moodle test
 
-* The moodle test will be developed during practice sessions on **Friday 27 March at 4.15pm CET**.
+* The moodle test will be developed during practice sessions on **Friday 27 March at 4.05pm CET**.
 * The test has a maximum duration of 30 minutes from the start.
 * The test consists of 20 triple choice questions.
 * Each wrong answer subtracts 1/3 of the value of a correct answer.
