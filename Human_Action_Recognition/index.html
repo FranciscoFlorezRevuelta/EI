@@ -1,0 +1,1355 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../CV-AAL/">
+      
+      
+        <link rel="next" href="../multimodal_interaction/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Lab - Smart environments</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lab-assignment-human-activity-recognition-from-pose-estimated-in-video" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Smart environments" class="md-header__button md-logo" aria-label="Smart environments" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Smart environments
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Lab
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Smart environments" class="md-nav__button md-logo" aria-label="Smart environments" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Smart environments
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Summary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../AmI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction to intelligent environments
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../IoT/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Internet of Things
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Computer vision for active assisted living
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Computer vision for active assisted living
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CV-AAL/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Theory
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lab
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lab
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objectives" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objectives
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#task-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Task Description
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recommended-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recommended Models
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#minimum-expected-pipeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Minimum Expected Pipeline
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Minimum Expected Pipeline">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-dataset-loading-and-preparation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Dataset Loading and Preparation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-pose-extraction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Pose Extraction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-sequence-representation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Sequence Representation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-activity-classification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Activity Classification
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-evaluation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Evaluation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-notebook-replaces-the-report" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Notebook Replaces the Report
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Notebook Replaces the Report">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#section-1-introduction-and-problem-statement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 1. Introduction and Problem Statement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-2-chosen-pose-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 2. Chosen Pose Model
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-3-developed-pipeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 3. Developed Pipeline
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-4-preprocessing-and-design-decisions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 4. Preprocessing and Design Decisions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-5-training" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 5. Training
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-6-results" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 6. Results
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-7-critical-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 7. Critical Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-8-conclusions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 8. Conclusions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deliverables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deliverables
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#minimum-notebook-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Minimum Notebook Requirements
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#results-ranking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Results Ranking
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grading-rubric" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Grading Rubric
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recommendations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recommendations
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-will-be-especially-valued" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Will Be Especially Valued
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../multimodal_interaction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Multimodal interaction, datasets, and synthetic generation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objectives" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objectives
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#task-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Task Description
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recommended-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recommended Models
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#minimum-expected-pipeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Minimum Expected Pipeline
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Minimum Expected Pipeline">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-dataset-loading-and-preparation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Dataset Loading and Preparation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-pose-extraction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Pose Extraction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-sequence-representation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Sequence Representation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-activity-classification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Activity Classification
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-evaluation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Evaluation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-notebook-replaces-the-report" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Notebook Replaces the Report
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Notebook Replaces the Report">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#section-1-introduction-and-problem-statement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 1. Introduction and Problem Statement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-2-chosen-pose-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 2. Chosen Pose Model
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-3-developed-pipeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 3. Developed Pipeline
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-4-preprocessing-and-design-decisions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 4. Preprocessing and Design Decisions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-5-training" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 5. Training
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-6-results" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 6. Results
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-7-critical-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 7. Critical Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-8-conclusions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 8. Conclusions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deliverables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deliverables
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#minimum-notebook-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Minimum Notebook Requirements
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#results-ranking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Results Ranking
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grading-rubric" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Grading Rubric
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recommendations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recommendations
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-will-be-especially-valued" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Will Be Especially Valued
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="lab-assignment-human-activity-recognition-from-pose-estimated-in-video">Lab Assignment: Human Activity Recognition from Pose Estimated in Video<a class="headerlink" href="#lab-assignment-human-activity-recognition-from-pose-estimated-in-video" title="Permanent link">&para;</a></h1>
+<p><img alt="image" src="../imgs/pipeline.png" /></p>
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<p>In this lab assignment, you will develop a Human Activity Recognition (HAR) system from videos, using a human pose estimation model as a preprocessing step before the action classifier.</p>
+<p>The main objective is for you to learn how to build, implement, and explain a complete pipeline that transforms a video into a body representation that is useful for classifying the performed activity.</p>
+<p>Unlike other assignments, <strong>you will not need to submit a separate report</strong>. The entire assignment must be documented, explained, and justified within the Google Colab notebook itself, combining code cells and Markdown cells.</p>
+<h2 id="objectives">Objectives<a class="headerlink" href="#objectives" title="Permanent link">&para;</a></h2>
+<p>By the end of this lab assignment, you should be able to:</p>
+<ul>
+<li>Design a pose-based HAR pipeline, from the original video to the final activity prediction.</li>
+<li>Select a pose estimation model, preferably a pretrained one, and justify your choice.</li>
+<li>Prepare a HAR video dataset and convert it into sequences of keypoints or skeletons.</li>
+<li>Train or fine-tune an activity classification model based on those sequences.</li>
+<li>Critically analyze how pose quality, noise, occlusions, and the chosen representation affect the final performance.</li>
+<li>Present the entire work clearly and reproducibly within a notebook.</li>
+</ul>
+<h2 id="task-description">Task Description<a class="headerlink" href="#task-description" title="Permanent link">&para;</a></h2>
+<p>You will be provided with a video dataset for human activity recognition, <a href="https://unialicante-my.sharepoint.com/:u:/g/personal/chs17_mscloud_ua_es/IQDC3NK9kdnYS7sqRU-ODRFiAdTjADSXk9cJ237N2KyGtbQ?e=xT32pr">here</a>.</p>
+<p>Using this dataset, you must build a system capable of classifying the activity performed in each video by using estimated human pose as an intermediate representation.</p>
+<p>To do so, each group must:</p>
+<ol>
+<li>Choose a pose estimation model, preferably pretrained.</li>
+<li>Apply it to the dataset to extract body keypoints frame by frame.</li>
+<li>Transform those keypoint sequences into the input of an action classification model.</li>
+<li>Train or fine-tune the classifier on the new dataset.</li>
+<li>Evaluate the final system.</li>
+<li>Explain the developed pipeline in detail within the notebook itself.</li>
+</ol>
+<h2 id="recommended-models">Recommended Models<a class="headerlink" href="#recommended-models" title="Permanent link">&para;</a></h2>
+<p>You may freely choose the pose model, but it is recommended to use pretrained models so that the main effort of the assignment is focused on the pipeline and on adapting it to the HAR problem, rather than on training a pose estimation model from scratch.</p>
+<p>Valid examples include:</p>
+<ul>
+<li><strong>RTMPose</strong>.</li>
+<li><strong>MediaPipe Pose / BlazePose</strong>.</li>
+<li>Other equivalent pretrained models, as long as you clearly explain their output, their limitations, and their integration into the pipeline.</li>
+</ul>
+<h2 id="minimum-expected-pipeline">Minimum Expected Pipeline<a class="headerlink" href="#minimum-expected-pipeline" title="Permanent link">&para;</a></h2>
+<p>The pipeline you develop must include, at a minimum, the following stages:</p>
+<h3 id="1-dataset-loading-and-preparation">1. Dataset Loading and Preparation<a class="headerlink" href="#1-dataset-loading-and-preparation" title="Permanent link">&para;</a></h3>
+<p>You must load the videos, organize the activity labels, and define a strategy for splitting the data into training, validation, and test sets.</p>
+<h3 id="2-pose-extraction">2. Pose Extraction<a class="headerlink" href="#2-pose-extraction" title="Permanent link">&para;</a></h3>
+<p>You must apply the chosen pose model to each video in order to obtain a temporal sequence of keypoints or landmarks.</p>
+<h3 id="3-sequence-representation">3. Sequence Representation<a class="headerlink" href="#3-sequence-representation" title="Permanent link">&para;</a></h3>
+<p>You must convert the pose sequence into a representation that can be used by the classifier, for example:</p>
+<ul>
+<li>Frame-wise normalized 2D or 3D coordinates.</li>
+<li>Joint distances and angles.</li>
+<li>Full skeletal sequences for GCN-based or temporal convolution models.</li>
+</ul>
+<h3 id="4-activity-classification">4. Activity Classification<a class="headerlink" href="#4-activity-classification" title="Permanent link">&para;</a></h3>
+<p>You must train a classifier on the extracted sequences.</p>
+<p>You may use a classical baseline or a model specifically designed for skeleton-based action recognition, such as ST-GCN or similar variants.</p>
+<h3 id="5-evaluation">5. Evaluation<a class="headerlink" href="#5-evaluation" title="Permanent link">&para;</a></h3>
+<p>At a minimum, you must report:</p>
+<ul>
+<li>Accuracy</li>
+<li>Precision</li>
+<li>Recall</li>
+<li>Macro F1-score</li>
+<li>Confusion matrix or equivalent analysis</li>
+</ul>
+<p>You must also analyze which errors come from the classifier and which seem to originate from the pose estimation itself.</p>
+<h2 id="the-notebook-replaces-the-report">The Notebook Replaces the Report<a class="headerlink" href="#the-notebook-replaces-the-report" title="Permanent link">&para;</a></h2>
+<p>In this assignment, the Google Colab notebook <strong>is the report</strong>, <a href="https://drive.google.com/file/d/1-zzySRQ_1dFhLg0PI0VS7nP-b4WEjm-h/view?usp=sharing">here</a>.</p>
+<p>This means it is not enough for the code to work: the notebook must be well structured, clearly explained and allow the reader to understand what you did, why you did it that way and what results you obtained.</p>
+<p>Therefore, your Colab notebook must include Markdown cells with the following sections:</p>
+<h3 id="section-1-introduction-and-problem-statement">Section 1. Introduction and Problem Statement<a class="headerlink" href="#section-1-introduction-and-problem-statement" title="Permanent link">&para;</a></h3>
+<p>You must briefly explain:</p>
+<ul>
+<li>What problem you want to solve.</li>
+<li>What dataset you are using.</li>
+<li>Which activity classes it contains.</li>
+<li>Why a pose-based approach may be suitable for this problem.</li>
+</ul>
+<h3 id="section-2-chosen-pose-model">Section 2. Chosen Pose Model<a class="headerlink" href="#section-2-chosen-pose-model" title="Permanent link">&para;</a></h3>
+<p>You must explain:</p>
+<ul>
+<li>Which pose model you selected.</li>
+<li>Why you chose it.</li>
+<li>Whether it is 2D or 3D.</li>
+<li>What output it produces exactly.</li>
+<li>What advantages and limitations it has for HAR.</li>
+</ul>
+<h3 id="section-3-developed-pipeline">Section 3. Developed Pipeline<a class="headerlink" href="#section-3-developed-pipeline" title="Permanent link">&para;</a></h3>
+<p>You must clearly describe your complete pipeline:</p>
+<ol>
+<li>Video input.</li>
+<li>Pose extraction.</li>
+<li>Keypoint preprocessing.</li>
+<li>Sequence or feature construction.</li>
+<li>Final classifier.</li>
+<li>Activity prediction.</li>
+</ol>
+<h3 id="section-4-preprocessing-and-design-decisions">Section 4. Preprocessing and Design Decisions<a class="headerlink" href="#section-4-preprocessing-and-design-decisions" title="Permanent link">&para;</a></h3>
+<p>You must justify decisions such as:</p>
+<ul>
+<li>Temporal frame sampling.</li>
+<li>Coordinate normalization.</li>
+<li>Sequence padding or truncation.</li>
+<li>Removal of problematic videos.</li>
+<li>Handling of frames without detections.</li>
+<li>Choice of sequence length.</li>
+<li>Choice of classifier.</li>
+</ul>
+<h3 id="section-5-training">Section 5. Training<a class="headerlink" href="#section-5-training" title="Permanent link">&para;</a></h3>
+<p>You must indicate:</p>
+<ul>
+<li>How you split the data.</li>
+<li>Which architecture you used.</li>
+<li>Which main hyperparameters you selected.</li>
+<li>Which loss function and optimizer you used.</li>
+</ul>
+<h3 id="section-6-results">Section 6. Results<a class="headerlink" href="#section-6-results" title="Permanent link">&para;</a></h3>
+<p>You must show:</p>
+<ul>
+<li>Accuracy.</li>
+<li>Precision.</li>
+<li>Recall.</li>
+<li>Macro F1-score.</li>
+<li>Confusion matrix.</li>
+<li>Summary table of results.</li>
+</ul>
+<h3 id="section-7-critical-analysis">Section 7. Critical Analysis<a class="headerlink" href="#section-7-critical-analysis" title="Permanent link">&para;</a></h3>
+<p>You must analyze:</p>
+<ul>
+<li>Which classes are most often confused.</li>
+<li>Which errors seem to be caused by pose quality.</li>
+<li>Which errors seem to be caused by the classifier.</li>
+<li>Which limitations you found.</li>
+<li>What you would improve if you had more time.</li>
+</ul>
+<h3 id="section-8-conclusions">Section 8. Conclusions<a class="headerlink" href="#section-8-conclusions" title="Permanent link">&para;</a></h3>
+<p>You must finish the notebook with a brief final conclusion summarizing:</p>
+<ul>
+<li>What you built.</li>
+<li>What you learned.</li>
+<li>What performance you obtained.</li>
+<li>What future improvements you would propose.</li>
+</ul>
+<h2 id="deliverables">Deliverables<a class="headerlink" href="#deliverables" title="Permanent link">&para;</a></h2>
+<p>You must submit only:</p>
+<ul>
+<li>A well-structured and fully reproducible <strong>Google Colab</strong> notebook.</li>
+<li>The notebook link, or the notebook exported as an <code>.ipynb</code> file, depending on the instructor’s instructions.</li>
+</ul>
+<p>No PDF or additional written report will be submitted.</p>
+<h2 id="minimum-notebook-requirements">Minimum Notebook Requirements<a class="headerlink" href="#minimum-notebook-requirements" title="Permanent link">&para;</a></h2>
+<p>The notebook must:</p>
+<ul>
+<li>Run from start to finish.</li>
+<li>Have clear titles and subtitles.</li>
+<li>Combine code and explanation.</li>
+<li>Include visualizations or result tables.</li>
+<li>Show at least one example of a video or frame with extracted pose.</li>
+<li>Clearly present the final metrics.</li>
+<li>Include a final critical discussion.</li>
+</ul>
+<p>A notebook that contains only code, without sufficient explanation, will be considered incomplete.</p>
+<h2 id="results-ranking">Results Ranking<a class="headerlink" href="#results-ranking" title="Permanent link">&para;</a></h2>
+<p>Part of the evaluation of the assignment will be based on a ranking of results across all groups, and this component will account for <strong>10%</strong> of the final grade.</p>
+<p>To ensure fairness, the ranking will be computed using the same test split and the same main metric for all groups.</p>
+<p>The main ranking metric will be <strong>Macro F1-score</strong>:</p>
+<p>Ranking rules:</p>
+<ul>
+<li>Everyone must use the same final test split.</li>
+<li>The submitted system must be reproducible.</li>
+<li>Only the best configuration documented within the notebook will be considered.</li>
+<li>In the event of a tie, a secondary metric (accuracy) or the clarity of reproducibility may be used as an additional criterion.</li>
+</ul>
+<h2 id="grading-rubric">Grading Rubric<a class="headerlink" href="#grading-rubric" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Criterion</th>
+<th style="text-align: right;">Weight</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Design and implementation of the complete pipeline</td>
+<td style="text-align: right;">30%</td>
+</tr>
+<tr>
+<td>Justification of the pose model and classifier</td>
+<td style="text-align: right;">20%</td>
+</tr>
+<tr>
+<td>Experimental quality and evaluation</td>
+<td style="text-align: right;">20%</td>
+</tr>
+<tr>
+<td>Critical analysis of errors and limitations</td>
+<td style="text-align: right;">20%</td>
+</tr>
+<tr>
+<td>Results ranking</td>
+<td style="text-align: right;">10%</td>
+</tr>
+</tbody>
+</table>
+<h2 id="recommendations">Recommendations<a class="headerlink" href="#recommendations" title="Permanent link">&para;</a></h2>
+<p>It is recommended to start with a simple and functional system before trying more complex improvements.</p>
+<p>For example, a reasonable strategy is:</p>
+<ol>
+<li>Choose a pretrained pose extractor.</li>
+<li>Generate normalized keypoint sequences.</li>
+<li>Train a baseline classifier.</li>
+<li>Evaluate it properly.</li>
+<li>Only then, try additional improvements.</li>
+</ol>
+<p>In this type of assignment, it is usually more valuable to present a clear, well-explained, and reproducible pipeline than a very complex but unstable solution.</p>
+<h2 id="what-will-be-especially-valued">What Will Be Especially Valued<a class="headerlink" href="#what-will-be-especially-valued" title="Permanent link">&para;</a></h2>
+<p>Special consideration will be given to notebooks that:</p>
+<ul>
+<li>Are clear and easy to follow.</li>
+<li>Show that you understand the full pipeline.</li>
+<li>Properly justify technical decisions.</li>
+<li>Analyze errors critically.</li>
+<li>Are reproducible.</li>
+<li>Do not depend on ambiguous or undocumented manual steps.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.copy", "content.tooltips", "content.footnote.tooltips"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      
+    
+  </body>
+</html>
